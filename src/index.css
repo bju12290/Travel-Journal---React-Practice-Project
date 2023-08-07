@@ -14,11 +14,6 @@ html {
     margin: 0;
     padding: 0;
   }
-   
-  img {
-    max-width: 100%;
-    height: auto;
-  }
 
   .navbar {
     justify-content: center;
@@ -41,4 +36,55 @@ html {
     font-size: 1.5rem;
     margin-right:5px;
     margin-top: 1px;
+  }
+
+  .card {
+    display: flex;
+    align-items:center;
+    color: #2B283A;
+  }
+
+  .card--image {
+    flex-shrink: 0;
+    margin: 35px;
+    width: 125px;
+    height: 168px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: -1px 6px 23px 6px rgba(0,0,0,0.25);
+  }
+
+  .card--location {
+    letter-spacing: 3px;
+    font-size: .9rem;
+  }
+
+  .card--mapsUrl > a {
+    margin-left: 10px;
+    color: #918E9B;
+  }
+
+  .card--icon {
+    color: #F55A5A;
+    font-size: .9rem;
+    margin-right: 5px;
+    position: relative;
+    top: 1px;
+  }
+
+  .card--title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .card--visitDates {
+    font-weight: 700;
+    font-size: .9rem;
+    margin-bottom: 10px;
+  }
+
+  .card--description {
+    font-size: .9rem;
+    line-height: 150%;
   }
