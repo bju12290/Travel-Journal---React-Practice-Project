@@ -1,10 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import "./index.css"
+import Navbar from './components/Nav-bar'
 
 function Test() {
     return (
-        <h1>Tesng</h1>
+        <Navbar />
     )
 }
 

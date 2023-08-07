@@ -16,3 +16,5 @@ Currently, two official plugins are available:
 - Data must be stored in a seperate file 'data.js' in an array.
 - Must make use of .map and props
 - Styled and Polished
+
+Figma: https://www.figma.com/file/QG4cOExkdbIbhSfWJhs2gs/Travel-Journal?type=design&node-id=0-1&mode=design
