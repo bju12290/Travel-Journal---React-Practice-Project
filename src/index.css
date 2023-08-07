@@ -29,6 +29,7 @@ html {
     background-color: #F55A5A;
     color: white;
     font-size: 1rem;
+    text-decoration: none;
   }
   
   .navbar > h1 {

@@ -2,11 +2,19 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import "./index.css"
 import Navbar from './components/Nav-bar'
+import Cards from './components/Cards'
+import Data from '../data.js'
 
-function Test() {
+function App() {
+    const cardElements = Data.map(item => {
+        return <Cards key={item.id} {...item}/>
+    })
     return (
+        <div>
         <Navbar />
+        {cardElements}
+        </div>
     )
 }
 
-ReactDOM.render(<Test />, document.getElementById("root"))
+ReactDOM.render(<App />, document.getElementById("root"))
